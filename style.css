@@ -13,17 +13,25 @@ body {
 
 nav {
   width: 100vw - 40px;
-  display: flex;
-  justify-content: space-between;
-  background-color: #2667ff;
+  background: rgba(0, 0, 0, 0.5) url("img/3920.jpg");
+  background-size: cover;
   color: #f5efff;
   font-family: "Goldman";
+  align-items: center;
+  background-blend-mode: darken;
+}
+
+.navContent {
+  width: 100vw - 40px;
+  backdrop-filter: blur(2px);
+  display: flex;
+  justify-content: space-between;
   align-items: center;
   padding: 0px 20px;
 }
 
 nav a {
-  color: #ecf39e;
+  color: #ffffff;
   text-decoration: none;
 }
 
